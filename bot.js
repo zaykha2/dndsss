@@ -119,7 +119,7 @@ var definedReactionRole = null;
 
 
   client.on('message', message => {
-      if(message.content.startsWith (".farry")) {
+      if(message.content.startsWith (".marry")) {
       if(!message.channel.guild) return message.reply('** This command only for servers **')
       var proposed = message.mentions.members.first()
      
